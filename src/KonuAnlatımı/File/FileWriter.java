@@ -7,11 +7,11 @@ public class FileWriter {
 
             try {
                 java.io.FileWriter myWriter = new java.io.FileWriter("filename.txt");
-                myWriter.write("Files in Java might be tricky, but it is fun enough!");
+                myWriter.write("buraya dosyaya ne yazdırmak istersek onu ekleriz. Bir klasiktir. Hello World!");
                 myWriter.close();
-                System.out.println("Successfully wrote to the file.");
+                System.out.println("yazma işlemi başarılı.");
             } catch (IOException e) {
-                System.out.println("An error occurred.");
+                System.out.println("bir hata oluştu.");
                 e.printStackTrace();
             }
 

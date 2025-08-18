@@ -18,7 +18,7 @@ public class ReadFile {
 
 
         }catch (FileNotFoundException e){
-            System.out.println("An error occurred.");
+            System.out.println("bir hata oluştu.");
             e.printStackTrace();
         }
     }
